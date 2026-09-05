@@ -1,0 +1,35 @@
+/* ===== COLOR PALETTE ===== */
+:root {
+  --color-bg: #f7f7fb;         /* soft off-white background */
+  --color-card: #ffffff;       /* white cards */
+  --color-text: #2b2b33;       /* soft dark text, not pure black */
+  --color-text-light: #6b6b78; /* muted gray text for descriptions */
+  --color-accent: #6c63ff;     /* gentle purple-blue accent */
+  --color-border: #e7e7ef;     /* subtle border color */
+  --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --radius: 12px;
+}
+
+/* ===== RESET / BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+p {
+  color: var(--color-text-light);
+}
